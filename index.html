@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title> form </title>
+</head>
+
+<body>
+  
+  <h1 class="heading">HTML Form</h1>
+  <div class="container">
+
+    <form action="thankyou.html" method="get">
+      <label for="First name">First name :</label>
+      <input type="text" id="First name" name="First name" placeholder="Enter your first name" required><br> <br>
+
+      <label for="Last name">Last name :</label>
+      <input type="text" id="Last name" name="Last name" placeholder="Enter your last name" required><br> <br>
+
+      <label for="password">Password : </label>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required> <br> <br>
+
+      <label for="email"> Email :</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email address" required> <br> <br>
+
+
+      <p>Select Your Gender</p>
+      <label for="Male">Male</label>
+      <input type="radio" name="gender" id="Male" value="Male" required><br>
+
+      <label for="Female">Female</label>
+      <input type="radio" name="gender" id="Female" value="Female" required><br>
+
+      <label for="Others"> Others</label>
+      <input type="radio" name="gender" id="Others" value="Others" required><br> <br>
+
+      <label for="age group">Select your age Group</label>
+      <select name="age group" id="age group" required>
+        <option value="0-15">0-15</option>
+        <option value="15-30">15-30</option>
+        <option value="30-50">30-50</option>
+        <option value="50-100">50-100</option>
+      </select>
+      <br> <br>
+      <p>Tell us about something</p>
+      <textarea name="textarea" id="Tell us about something" cols="30" rows="10" required></textarea>
+      <br> <br>
+
+      Enter Your Date of Birth <input type="date" name="date of birth" id="date" required>
+
+      <br><br>
+      <input type="submit" value="Sumbit">
+
+
+    </form>
+
+</body>
+</div>
+
+</html>
